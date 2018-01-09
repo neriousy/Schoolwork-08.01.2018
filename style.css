@@ -210,9 +210,14 @@ a:active {
 
 
 @media only screen and (min-width:321px) and (max-width:580px) {
-    .container{
-        width:90%;
+    body{
+        padding:0;
+        margin:0;
     }
+    .container{
+        width:100%;
+    }
+    
     
     .nav{
         width:100%;
@@ -223,7 +228,7 @@ a:active {
     }
     
     .banner img{
-        width:350px;
+        width:100%;
     }
     
     .main{
@@ -231,7 +236,7 @@ a:active {
     }
     
     .nav a{
-        width:25%;
+        width:50%;
         display:flex;
         justify-content: center;
         text-align: center;
