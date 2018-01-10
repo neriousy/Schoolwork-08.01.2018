@@ -94,6 +94,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: #000;
     border-radius: 20px;
 }
@@ -189,14 +190,14 @@ a:active {
 }
 
 .mapa {
-    width: 40%;
+    width: 600px;
     height: 100%;
 }
 
 .dane {
-    width: 60%;
+    width: calc(100%-600px);
     height: 100%;
-    font-size: 30px;
+    font-size:2em;
 }
 
 .center {
