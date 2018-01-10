@@ -195,7 +195,7 @@ a:active {
 }
 
 .dane {
-    width: calc(100%-600px);
+    width: calc(100% - 600px);
     height: 100%;
     font-size:2em;
 }
