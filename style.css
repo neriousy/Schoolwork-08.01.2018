@@ -123,6 +123,7 @@ body {
 }
 
 .block {
+    height:33.3%;
     width: 100%;
     font-size: 30px;
 }
@@ -132,14 +133,11 @@ body {
 }
 
 .icon {
-    height: 50%;
+    height: 40%;
     width: 100%;
     color: white;
     font-size: 40px;
 }
-
-
-
 
 .yt:hover {
     color: #f00;
@@ -191,10 +189,10 @@ a:active {
 
 .mapa {
     width: 600px;
-    height: 100%;
+    height: 450px;
 }
 
-.dane {
+.dane {    
     width: calc(100% - 600px);
     height: 100%;
     font-size:2em;
