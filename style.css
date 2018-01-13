@@ -217,6 +217,7 @@ a:active {
     }
     .container {
         width: 100%;
+        margin:0;
     }
 
 
@@ -252,8 +253,9 @@ a:active {
     }
     .contact {
         width: 100%;
+        text-align: left;
     }
-    .icon {
+    .icon {    
         font-size: 30px;
     }
 
@@ -264,7 +266,7 @@ a:active {
     }
     
     .mapa{
-        width:400px;    
+        width:100%    
     }
 
     .dane {
